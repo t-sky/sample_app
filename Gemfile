@@ -41,6 +41,8 @@ gem 'jbuilder', '1.0.2'
 # Encryption of password
 gem 'bcrypt-ruby', '3.1.2'
 
+# for ActiveRecord Object Factory
+gem 'factory_girl_rails', '4.2.1'
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', '0.3.20', require: false
